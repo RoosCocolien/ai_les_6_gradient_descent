@@ -32,7 +32,7 @@ Data: https://www.scribbr.com/statistics/simple-linear-regression/
 """
 
 # TODO: je moet zelf een gradient_descent functie schrijven en importeren
-from ai_6_lineaire_regressie import gradient_descent
+# from ai_6_lineaire_regressie import gradient_descent
 # met pyplot kunnen we een eenvoudige lijnplot maken
 import matplotlib.pyplot as pyplot
 # we gaan pandas gebruiken, dat is een open-source python lib
@@ -61,6 +61,7 @@ pyplot.savefig("media/data_income_happiness_example.png")
 # gradient descent
 # inkomen is de onafhankelijke waarde
 # happiness is de afhankelijke waarde
+# TODO: implement gradient_descent
 a, b = gradient_descent(incomeArray, happinessArray)
 print(f"mijn a, b: {a} en {b}")
 # maak de lineaire vergelijking y = ax + b
